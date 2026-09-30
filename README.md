@@ -12,6 +12,8 @@ The frontend is hosted using Amazon S3 and delivered through Amazon CloudFront. 
 
 ## Architecture
 
+![AWS 3-Tier Architecture](docs/aws-3-tier-architecture.png)
+
 ```text
 User
  |
