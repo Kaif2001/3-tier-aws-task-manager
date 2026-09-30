@@ -1,4 +1,4 @@
-const API_URL = "http://aws-3tier-task-manager-env.eba-hknuxdnc.ap-south-1.elasticbeanstalk.com/api/tasks";
+const API_URL = "/api/tasks";
 
 async function loadTasks() {
     const response = await fetch(API_URL);
